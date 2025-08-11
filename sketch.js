@@ -5,7 +5,7 @@ function setup() {
 
 function draw() {
  d= random(10,60);
-  colorMode(HSB,360,100,100)
+  colorMode(HSB,360,100,100);
   fill(random(0,359),100,100);
   ellipse(mouseX,mouseY,d,d);
 }
